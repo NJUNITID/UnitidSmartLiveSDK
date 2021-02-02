@@ -13,6 +13,7 @@
 #import "UnitidVerificatedViewController.h"
 #import "UnitidLiveSDKManager.h"
 #import "LivingConfigModel.h"
+#import "SpiderBridgeViewController.h"
 
 
 //! Project version number for LiveDetectionSDKFrame.

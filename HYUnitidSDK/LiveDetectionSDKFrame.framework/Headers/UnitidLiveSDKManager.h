@@ -22,6 +22,14 @@ typedef NS_ENUM(NSUInteger, SpiderIDResultCode) {
 
 };
 
+typedef NS_ENUM(NSUInteger, SpiderEntResponseCode) {
+    SpiderEntResponse_Action = 0,    //认证中
+    SpiderEntResponse_Over = 1,  //认证完成
+    SpiderEntResponse_Invalid = 2,  // 认证失效
+    SpiderEntResponse_Error = 3,  // 其他错误
+
+};
+
 
 
 
